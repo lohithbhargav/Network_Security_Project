@@ -20,7 +20,8 @@ After installing the necessary packages, we do start coding
 2. We read the contents from the dataset file using pandas package
 3. We use a function from_pandas_edgelist from netwrokx package to define source and target to plot a graph
 4. We limited the nodes to 1200 in order to avoid complexity issues
-5. We print dataframe just to confirm
+5. We print dataframe just to confirm <img>/DataFrame.jpeg</img>
+6. 
 
 
 7. We code the loop
