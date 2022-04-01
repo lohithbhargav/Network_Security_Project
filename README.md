@@ -31,7 +31,23 @@ After installing the necessary packages, we do start coding
 
 
 ## Operating Instructions
-We run
+We run all the code for output
 1. To print dataframe
-2. The loop that displays degree of a node
-3. T
+2. The loop that displays degree of a node with Visualization
+3. To print the histogram
+
+## Contributions
+0 to 200             Lohith Bhargav Doppalapudi - R11786637
+201 to 400           Deepika Duttaluru Muralidhar - R11798788
+401 to 600           Bala Naga Sai Chandu Thutupalli - R11800450
+601 to 800           Dharani Kumar Vemuri - R11804262
+801 to 1000          Rajani Priya Danda - R11800015
+1001 to 1200         Harshini Vemula - R11800661
+
+## Contact for Authors
+Lohith Bhargav Doppalapudi - R11786637
+Deepika Duttaluru Muralidhar - R11798788
+Bala Naga Sai Chandu Thutupalli - R11800450
+Dharani Kumar Vemuri - R11804262
+Rajani Priya Danda-R11800015
+Harshini Vemula - R11800661
