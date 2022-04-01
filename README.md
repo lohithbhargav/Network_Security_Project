@@ -5,7 +5,7 @@ We used Google Colab to create this project
 ## Configuration Instructions
 Navigate to Google Colab, and signup to start working with Colab
 Create new notebook and name it
-Upload the dataset file into the environment from the below path
+Upload the dataset file into the environment to the below path
 ##### /content/routers_data_undirected
 
 After all the configurations are set, we are ready to visualize the data
@@ -15,32 +15,37 @@ We need to import all the below packages before visualizing the data
 1. pandas
 2. networkx
 3. plotly.graph_objects
-After installing the necessary packages, we do start coding
-1. To create a graph object
-2. We read the contents from the dataset file using pandas package
-3. We use a function from_pandas_edgelist from netwrokx package to define source and target to plot a graph
-4. We limited the nodes to 1200 in order to avoid complexity issues
-5. We print dataframe just to confirm 
-6. We code 
-6.1 The loop to find the degree of each node
-6.2 The required properties like width of the connection, color, hover info, mode of the connected line
-6.3 We implemented weighted edges between nodes
-6.4 To show details like node_id, number of neighbouring nodes, number of node connections when we hover over each node
-6.5 To plot the graph to visualize intensity
+
+After installing the necessary packages, we follow the below steps
+1. creating a new graph object
+2. We use the 'from_pandas_edgelist()' function from networkx package to read the dataset.
+3. We limited the nodes to 1200 in order to avoid complexity issues.
+4. We create nodes and edges and add it to our graph object.
+5. We get the positions of nodes and use the random_layout defined in networkx package to plot our graph.
+6. Using plotly we create edge traces based on weights and a single node trace for all the nodes.
+7. We colored the nodes and edges using scatter attributes. Nodes with higher connections have a lighter color in our graph.
+8. Finally using plotly fig() function we generated a graph with properties like width of the connection, color, hover info, mode of the connected line
+9. We implemented weighted edges between nodes.
+10. We show details like node_id, number of neighbouring nodes, number of node connections when we hover over each node.
+11. We generated a html file for our output graph for ease of accessibility.
+
+#Histogram
+1. We used a plotly module called express to plot our histogram
+2. This time we read the entire dataset and plot a figure for all the nodes using histogram() function.
 
 
-
-## Operating Instructions
-We run all the code for output
-1. To print dataframe \t
+Our code generates the following outputs
+1. TWe print a dataframe \t
   ![DataFrame](ScreenShots/DataFrame.jpeg)
-2. The loop that displays degree of a node with Visualization
+2. Our network graph
   ![Output](ScreenShots/Visual.jpeg)
-3. To print the histogram
+3. Our Histogram
   ![Histogram](ScreenShots/Histogram.jpeg) 
 
 ## Video
-![Presentation](Video.mp4)
+https://user-images.githubusercontent.com/60381430/161347900-54b8ca4f-2cd4-4e39-96ba-6434d54a2262.mp4
+
+
 
 
 ## Contributions
