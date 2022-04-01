@@ -32,12 +32,16 @@ After installing the necessary packages, we do start coding
 
 ## Operating Instructions
 We run all the code for output
-1. To print dataframe
+1. To print dataframe \t
   ![DataFrame](ScreenShots/DataFrame.jpeg)
 2. The loop that displays degree of a node with Visualization
   ![Output](ScreenShots/Visual.jpeg)
 3. To print the histogram
   ![Histogram](ScreenShots/Histogram.jpeg) 
+
+## Video
+![Presentation](Video.mp4)
+
 
 ## Contributions
 | Range | Name - Rid |
