@@ -21,7 +21,17 @@ After installing the necessary packages, we do start coding
 3. We use a function from_pandas_edgelist from netwrokx package to define source and target to plot a graph
 4. We limited the nodes to 1200 in order to avoid complexity issues
 5. We print dataframe just to confirm ![DataFrame](/DataFrame.jpeg)
-6. 
+6. We code 
+6.1 The loop to find the degree of each node
+6.2 The required properties like width of the connection, color, hover info, mode of the connected line
+6.3 We implemented weighted edges between nodes
+6.4 To show details like node_id, number of neighbouring nodes, number of node connections when we hover over each node
+6.5 To plot the graph to visualize intensity
 
 
-7. We code the loop
+
+## Operating Instructions
+We run
+1. To print dataframe
+2. The loop that displays degree of a node
+3. T
